@@ -1,8 +1,8 @@
 {
   "name": "CheemsBot-MD",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/BlackPanther-svg/My-best-bot",
-  "logo": "https://pbs.twimg.com/media/FO7fojOakAAyYgt?format=jpg&name=900x900",
+  "repository": "https://github.com/BlackPanther-svg/Queen-Ashiya-MD-v3",
+  "logo": "https://i.ibb.co/tm8BJTw/b13594a88fe8f1b8cf4ac9d7a2f07f74.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {
