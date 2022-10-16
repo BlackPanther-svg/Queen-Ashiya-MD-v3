@@ -8,9 +8,9 @@
 
 # Add session File
 
-[Add](https://github.com/BlackPanther-svg/My-best-bot/upload/master)
+[Add](https://github.com/BlackPanther-svg/Queen-Ashiya-MD-v3/upload/master)
 
 # Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BlackPanther-svg/My-best-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BlackPanther-svg/Queen-Ashiya-MD-v3)
 
