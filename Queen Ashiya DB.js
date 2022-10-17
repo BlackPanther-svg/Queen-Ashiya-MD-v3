@@ -1093,10 +1093,18 @@ const reactionMessage = {
                 
                 const timestampe = speed();
 const latensie = speed() - timestampe
-                const menulist = `╔══╗╔╗─╔══╗╔╗─╔╗╔═╗
-║╔╗║║║─╚║║╝║╚╦╝║║╦╝
-║╠╣║║╚╗╔║║╗╚╗║╔╝║╩╗
-╚╝╚╝╚═╝╚══╝─╚═╝─╚═╝
+                const menulist = `╭━━━━━━━╮
+┃       ● ══    ┃
+┃███████┃
+┃███████┃
+┃███████┃
+┃███████┃
+┃███████┃
+┃███████┃
+┃███████┃
+┃███████┃
+┃         ○        ┃
+╰━━━━━━━╯
 ╭➤ 𝐈𝐀𝐌 𝐒𝐓𝐈𝐋𝐋 𝐀𝐋𝐈𝐕𝐄 𝐁𝐑𝐎*»
 │❖ Oᴡɴᴇʀ :ī.am/ꪶ⇾🪀☻᳡94741671668🇱🇰ꫂ⁩⁩⁩
 │❖ Wᴏʀᴋ ᴛʏᴘᴇ : ᴘᴜʙʟɪᴄ
@@ -1239,6 +1247,45 @@ if (isBanChat) return reply(mess.banChat)
     reply(txt)       
   }
  break
+ case 'Akarsha': case 'Ak queen': case 'mine pana': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
+	if (isBan) return reply(mess.ban)	 			
+if (isBanChat) return reply(mess.banChat)
+teks = `හායි ❤.....I ᗩᗰ 𝚀𝚞𝚎𝚎𝚗 𝙰𝚜𝚑𝚒𝚢𝚊
+For People who want to sleep
+Let it take hold
+After performing their role
+will step off the stage......
+✍️💆‍♀️💖
+
+*•.¸.☆.¸¸.✿¸. •°*”˜ƸӜƷ˜”*°•.¸ ❤ ❤
+¸✿.¸¸.☆.¸.•*❤ ❤ ❤ ❤ ❤ ❤ ❤
+┼┼╔══╗╔╗┼┼┼┼┼┼┼╔╦╗┼┼┼
+┼┼╚╗╔╝║║╔═╦╦╦═╗╠╣╚╗┼┼
+┼┼╔╝╚╗║╚╣║║║║╩╣║║╔╣┼┼
+┼┼╚══╝╚═╩═╩═╩═╝╚╩═╝┼┼
+★ ★　　　　★　　★ *˛ ˚♥* ✰`
+let buttons = [
+{buttonId: `menu`, buttonText: {displayText: 'Hellow🌺'}, type: 1}
+]
+let buttonMessage = {
+image: thum,
+jpegThumbnail: log0,
+caption: teks,
+footer: `${botname}`,
+buttons: buttons,
+headerType: 4,
+contextInfo:{externalAdReply:{
+title:"I deserve something for my hardwork",
+body: "𝙰𝚔𝚊𝚛𝚜𝚑𝚊♨", 
+thumbnail: fs.readFileSync("XeonMedia/theme/ak.jpg"),
+mediaType:1,
+mediaUrl: 'https://i.ibb.co/tm8BJTw/b13594a88fe8f1b8cf4ac9d7a2f07f74.jpg',
+sourceUrl: "https://i.ibb.co/tm8BJTw/b13594a88fe8f1b8cf4ac9d7a2f07f74.jpg"
+}}
+}
+XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+}
+break
  case 'leaderboard':
  if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
